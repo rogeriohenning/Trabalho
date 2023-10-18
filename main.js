@@ -5,5 +5,5 @@ document.querySelector('.tecla_mario') .onclick=tocaSomMario;
 
 function tocaSomBrasil(){
     document.querySelector('#som_tecla_brasil').play();
-    }
-document.querySelector('tecla_brasil') .onclick=tocaSomBrasil;
+}
+document.querySelector('.tecla_brasil') .onclick=tocaSomBrasil;
