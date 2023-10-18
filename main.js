@@ -1,7 +1,8 @@
 function tocaSomMario(){
     document.querySelector('#som_tecla_mario').play();
 }
-document.querySelector('.tecla_mario') .onclick=tocaSomMario;
+const listaDeTeclas= document.querySelectorAll('.tecla');
+listaDeTeclas[1].onclick=tocaSomMario;
 
 function tocaSomBrasil(){
     document.querySelector('#som_tecla_brasil').play();
